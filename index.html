@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
+    <link rel="stylesheet" href="./src/styles/normalize.css">
+    <link rel="stylesheet" href="./src/styles/style.css">
+    <script defer src="./src/js/main.js"></script>
+    <title>Pizza Cheff</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container grid">
+            <div class="header__logo">
+                <img src="./src/img/pizza.png" alt="Логотип Pizza Cheff">
+                <h1 class="header__title">Pizza Cheff</h1>
+            </div>
+            <nav class="header__nav flex">
+                <ul class="header__list flex">
+                    <li class="header__item"><a href="" class="header__link">Пиццы</a></li>
+                    <li class="header__item"><a href="" class="header__link">Напитки</a></li>
+                    <li class="header__item"><a href="" class="header__link">Доставка и оплата</a></li>
+                    <li class="header__item"><a href="" class="header__link">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="header__menu-block">
+                <button class="header__burger btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <nav class="header__menu">
+                    <button class="header__cls-menu btn">
+                    </button>
+                    <ul class="header__list flex">
+                        <li class="header__item"><a href="" class="header__link">Пиццы</a></li>
+                        <li class="header__item"><a href="" class="header__link">Напитки</a></li>
+                        <li class="header__item"><a href="" class="header__link">Доставка и оплата</a></li>
+                        <li class="header__item"><a href="" class="header__link">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="hero">
+            <div class="container hero__container grid">
+                <div class="hero__info">
+                    <h2 class="hero__title">Самая вкусная пицца в мире <span> только в Pizza Cheff</span></h2>
+                    <ul class="hero__list flex">
+                        <li class="hero__item animate__animated animate__fadeInRight animate__faster animate__delay-0s">
+                            <img src="./src/img/hop.png" alt="Лучшее тесто">
+                            <div class="hero__block">
+                                <h3 class="hero__subtitle">Лучшее тесто</h3>
+                                <p class="hero__descr">Мы создаем тесто только из 
+                                    отборной итальянской муки
+                                    наивысшего качества
+                                </p>
+                            </div>
+                        </li>
+                        <li class="hero__item animate__animated animate__fadeInRight animate__delay-0s">
+                            <img src="./src/img/kitchen-pack.png" alt="Лучшие повара">
+                            <div class="hero__block">
+                                <h3 class="hero__subtitle">Лучшие повара</h3>
+                                <p class="hero__descr">Пиццы готовят самые
+                                    профессиональные 
+                                    итальянские повара
+                                </p>
+                            </div>
+                        </li>
+                        <li class="hero__item animate__animated animate__fadeInRight animate__faster animate__delay-1s">
+                            <img src="./src/img/seo-and-web.png" alt="Гарантия качества">
+                            <div class="hero__block">
+                                <h3 class="hero__subtitle">Гарантия качества</h3>
+                                <p class="hero__descr">
+                                    Наша пиццерия получила множество наград и  признаний по всему миру
+                                </p>
+                            </div>
+                        </li>
+                        <li class="hero__item animate__animated animate__fadeInRight animate__delay-1s">
+                            <img src="./src/img/holidays.png" alt="Отборные рецепты">
+                            <div class="hero__block">
+                                <h3 class="hero__subtitle">Отборные рецепты</h3>
+                                <p class="hero__descr">Мы используем рецепты от мировых лидеров в изготовлении пиццы</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <button class="hero__btn btn animate__animated animate__pulse animate__delay-2s">Выбрать пиццу</button>
+                </div>
+                <div class="hero__block-img">
+                    <img src="./src/img/pizza_big.png" alt="Огромная вкусная пицца">
+                </div>
+            </div>
+        </section>
+        <section class="goods">
+            <div class="container goods__container">
+                <h2 class="goods__title title">Выберите свою любимую пиццу</h2>
+                <ul class="goods__list grid">
+                    <li class="goods__item">
+                        <a data-fancybox  data-src="./src/img/pzz-1.png" class="goods__link">
+                            <img src="./src/img/pzz-1.png" alt="Пицца Мясная Делюкс" data-mfp-src="image-for-popup.jpg">
+                        </a>
+                        <div class="goods__descr">
+                            <h3 class="goods__subtitle">Мясная Делюкс</h3>
+                            <p class="goods__content">Пепперони, лук, бекон, томатная паста, колбаски, перец, грибы, соус чили, ананасы </p>
+                        </div>
+                        <button class="goods__btn btn goods__btn-add-to-cart">В корзину</button>
+                    </li>
+                    <li class="goods__item">
+                        <a data-fancybox  data-src="./src/img/pzz-2.png" class="goods__link">
+                            <img src="./src/img/pzz-2.png" alt="Пицца Морская Премиум">
+                        </a>
+                        <div class="goods__descr">
+                            <h3 class="goods__subtitle">Морская Премиум</h3>
+                            <p class="goods__content">Перец, сыр, креветки, кальмары, мидии, лосось</p>
+                        </div>
+                        <button class="goods__btn btn goods__btn-add-to-cart">В корзину</button>
+                    </li>
+                    <li class="goods__item">
+                        <a data-fancybox  data-src="./src/img/pzz-3.png" class="goods__link">
+                            <img src="./src/img/pzz-3.png" alt="Пицца Бекон и Сосиски">
+                        </a>
+                        <div class="goods__descr">
+                            <h3 class="goods__subtitle">Бекон и Сосиски</h3>
+                            <p class="goods__content">Бекон, сыр, сосиски, ананас, томатная паста</p>
+                        </div>
+                        <button class="goods__btn btn goods__btn-add-to-cart">В корзину</button>
+                    </li>
+                    <li class="goods__item">
+                        <a data-fancybox  data-src="./src/img/pzz-4.png" class="goods__link">
+                            <img src="./src/img/pzz-4.png" alt="Пицца Куриная Делюкс">
+                        </a>
+                        <div class="goods__descr">
+                            <h3 class="goods__subtitle">Куриная Делюкс</h3>
+                            <p class="goods__content">Курица, ананас, сыр Пепперони, соус для пиццы, томатная паста</p>
+                        </div>
+                        <button class="goods__btn btn goods__btn-add-to-cart">В корзину</button>
+                    </li>
+                    <li class="goods__item">
+                        <a data-fancybox  data-src="./src/img/pzz-5.png" class="goods__link">
+                            <img src="./src/img/pzz-5.png" alt="Пицца Барбекю Премиум">
+                        </a>
+                        <div class="goods__descr">
+                            <h3 class="goods__subtitle">Барбекю Премиум</h3>
+                            <p class="goods__content">Свинина BBQ, соус Барбкею, сыр, курица, соус для пиццы, соус чили</p>
+                        </div>
+                        <button class="goods__btn btn goods__btn-add-to-cart">В корзину</button>
+                    </li>
+                    <li class="goods__item">
+                        <a data-fancybox  data-src="./src/img/pzz-6.png" class="goods__link">
+                            <img src="./src/img/pzz-6.png" alt="Пицца Пепперони Дабл">
+                        </a>
+                        <div class="goods__descr">
+                            <h3 class="goods__subtitle">Пепперони Дабл</h3>
+                            <p class="goods__content">Пепперони, сыр, колбаса 2 видов: обжаренная и вареная</p>
+                        </div>
+                        <button class="goods__btn btn goods__btn-add-to-cart">В корзину</button>
+                    </li>
+                    <li class="goods__item">
+                                                <a data-fancybox  data-src="./src/img/pzz-7.png" class="goods__link">
+                                                    <img src="./src/img/pzz-7.png" alt="Пицца Куриное трио">
+                                                </a>
+                        <div class="goods__descr">
+                            <h3 class="goods__subtitle">Куриное трио</h3>
+                            <p class="goods__content">Жареная курица, Тушеная курица, Куриные наггетсы, перец, сыр, грибы, соус для пиццы</p>
+                        </div>
+                        <button class="goods__btn btn goods__btn-add-to-cart">В корзину</button>
+                    </li>
+                    <li class="goods__item">
+                                                <a data-fancybox  data-src="./src/img/pzz-8.png" class="goods__link">
+                                                    <img src="./src/img/pzz-8.png" alt="Пицца Сырная">
+                                                </a>
+                        <div class="goods__descr">
+                            <h3 class="goods__subtitle">Сырная</h3>
+                            <p class="goods__content">Сыр Джюгас, Сыр с плесенью, Сыр Моцарелла, Сыр секретный</p>
+                        </div>
+                        <button class="goods__btn btn goods__btn-add-to-cart">В корзину</button>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="order">
+            <div class="container order__container flex">
+                <div class="order__descr">
+                    <h2 class="order__title title">Хватит думать! <span>Доставим заказ за 30 минут!</span></h2>
+                    <p class="order__text">Мы  гарантированно доставим вашу пиццу за 30 минут с момента оформления заказа. Если мы опоздаем даже на 1 минуту - вы получаете весь заказ бесплатно и ваучер на скидку на следующий заказ. Мы гордимся нашим сервисом и сделаем всё, чтобы наш клиент был доволен и не остался голодный!</p>
+                </div>
+                <div class="order__block">
+                    <form action="https://jsonplaceholder.typicode.com/posts" method="post" class="order__form form">
+                        <input class="form__input" type="text" required name="name" id="name" placeholder="Ваше имя" >
+                        <input class="form__input" type="text" required name="address" id="adress" placeholder="Адрес доставки" >
+                        <input class="form__input" type="tel" required name="phone" id="phone" placeholder="Телефон" >
+                        <button class="btn form__btn" type="submit">Оформить заказ</button>
+                    </form>
+                </div>
+                <!-- <div class="order__img">
+                    <img src="./src/img/pizzzzza.png" alt="">
+                </div> -->
+            </div>
+        </section>
+    </main>
+</body>
+</html>
